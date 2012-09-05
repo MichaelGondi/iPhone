@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C32177D15C9DE380098C867 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C32177C15C9DE380098C867 /* header.png */; };
+		4C3D69E715BCB36C00E4B2E0 /* 50015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D69E315BCB36C00E4B2E0 /* 50015.jpg */; };
+		4C4ECB6315BB65FF00A1274C /* 50209.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C4ECB5E15BB65FF00A1274C /* 50209.jpg */; };
 		4CA71AD915B87E21003C4ACD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA71AD815B87E21003C4ACD /* UIKit.framework */; };
 		4CA71ADB15B87E21003C4ACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA71ADA15B87E21003C4ACD /* Foundation.framework */; };
 		4CA71ADD15B87E21003C4ACD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA71ADC15B87E21003C4ACD /* CoreGraphics.framework */; };
@@ -18,18 +21,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C32177C15C9DE380098C867 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		4C3D69E315BCB36C00E4B2E0 /* 50015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50015.jpg; sourceTree = "<group>"; };
+		4C4ECB5E15BB65FF00A1274C /* 50209.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50209.jpg; sourceTree = "<group>"; };
 		4CA71AD415B87E21003C4ACD /* Fifty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fifty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA71AD815B87E21003C4ACD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CA71ADA15B87E21003C4ACD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CA71ADC15B87E21003C4ACD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4CA71AE015B87E21003C4ACD /* Fifty-Info.plist */ = {isa = PBXFileReference; path = "Fifty-Info.plist"; sourceTree = "<group>"; };
+		4CA71AE015B87E21003C4ACD /* Fifty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fifty-Info.plist"; sourceTree = "<group>"; };
 		4CA71AE215B87E21003C4ACD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CA71AE415B87E21003C4ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CA71AE615B87E21003C4ACD /* Fifty-Prefix.pch */ = {isa = PBXFileReference; path = "Fifty-Prefix.pch"; sourceTree = "<group>"; };
-		4CA71AE715B87E21003C4ACD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CA71AE615B87E21003C4ACD /* Fifty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fifty-Prefix.pch"; sourceTree = "<group>"; };
+		4CA71AE715B87E21003C4ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CA71AE815B87E21003C4ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4CA71AEB15B87E21003C4ACD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4CA71AED15B87E21003C4ACD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4CA71AED15B87E21003C4ACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4CA71AEE15B87E21003C4ACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C4ECB5615BB63AF00A1274C /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D69E315BCB36C00E4B2E0 /* 50015.jpg */,
+				4C32177C15C9DE380098C867 /* header.png */,
+				4C4ECB5E15BB65FF00A1274C /* 50209.jpg */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
 		4CA71AC915B87E21003C4ACD = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +93,7 @@
 		4CA71ADE15B87E21003C4ACD /* Fifty */ = {
 			isa = PBXGroup;
 			children = (
+				4C4ECB5615BB63AF00A1274C /* Design */,
 				4CA71AE715B87E21003C4ACD /* AppDelegate.h */,
 				4CA71AE815B87E21003C4ACD /* AppDelegate.m */,
 				4CA71AEA15B87E21003C4ACD /* MainStoryboard.storyboard */,
@@ -151,6 +168,9 @@
 			files = (
 				4CA71AE315B87E21003C4ACD /* InfoPlist.strings in Resources */,
 				4CA71AEC15B87E21003C4ACD /* MainStoryboard.storyboard in Resources */,
+				4C4ECB6315BB65FF00A1274C /* 50209.jpg in Resources */,
+				4C3D69E715BCB36C00E4B2E0 /* 50015.jpg in Resources */,
+				4C32177D15C9DE380098C867 /* header.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +257,11 @@
 		4CA71AF315B87E21003C4ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fifty/Fifty-Prefix.pch";
 				INFOPLIST_FILE = "Fifty/Fifty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,9 +270,11 @@
 		4CA71AF415B87E21003C4ACD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fifty/Fifty-Prefix.pch";
 				INFOPLIST_FILE = "Fifty/Fifty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +299,7 @@
 				4CA71AF415B87E21003C4ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
